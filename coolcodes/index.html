@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaCorp - Building the Future</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('whitehats.png') no-repeat center center/cover;
+            color: blue;
+            text-align: center;
+            padding: 5rem 2rem;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .section h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        .services, .testimonials {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: #f9f9f9;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            flex: 1 1 calc(30% - 2rem);
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MegaCorp</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Innovating the Future</h2>
+        <p>Welcome to MegaCorp, where innovation meets excellence.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h3>About Us</h3>
+        <p>MegaCorp is a global leader in technology and services, dedicated to shaping the future of industries.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h3>Our Services</h3>
+        <div class="services">
+            <div class="card">
+                <h4>Technology Solutions</h4>
+                <p>Innovative IT and cloud solutions for businesses of all sizes.</p>
+            </div>
+            <div class="card">
+                <h4>Consulting</h4>
+                <p>Expert guidance to help your business grow and succeed.</p>
+            </div>
+            <div class="card">
+                <h4>Manufacturing</h4>
+                <p>High-quality manufacturing services across multiple industries.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section">
+        <h3>What Our Clients Say</h3>
+        <div class="testimonials">
+            <div class="card">
+                <p>"MegaCorp transformed our business. Their expertise is unparalleled."</p>
+                <strong>- Alex Johnson</strong>
+            </div>
+            <div class="card">
+                <p>"Exceptional service and results. MegaCorp is our trusted partner."</p>
+                <strong>- Maria Lee</strong>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h3>Contact Us</h3>
+        <p>Email: info@megacorp.com | Phone: +1-800-555-0199</p>
+        <p>Follow us on social media: 
+            <a href="#">Facebook</a>, 
+            <a href="#">Twitter</a>, 
+            <a href="#">LinkedIn</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MegaCorp. All rights reserved.</p>
+    </footer>
+</body>
+</html>
